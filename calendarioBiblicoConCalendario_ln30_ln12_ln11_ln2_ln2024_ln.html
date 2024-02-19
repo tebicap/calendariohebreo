@@ -3393,8 +3393,9 @@ async function main(){
              if ( cal_numdia == 1 ){
                 document.getElementById(`cal_luna_celda_${cal_numcasillero}`).style.display = "inline";
                  dia.parentNode.nextSibling.style.display = "inline";
-             } else if ( cal_numdia == 29 || cal_numdia == 30){
+             } else if ( cal_numdia == 30 || cal_numdia == 31){
                  dia.parentNode.nextSibling.style.opacity = "0.3"; // proxima luna se ve transparente
+                 document.getElementById(`cal_num_dia_${cal_numcasillero}`).style.opacity= "0.4"; // lavo el número del día potencial 30
              } else { 
                  document.getElementById(`cal_luna_celda_${cal_numcasillero}`).style.display = "none";
              }
