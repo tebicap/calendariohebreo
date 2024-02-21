@@ -29,14 +29,14 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.7279515"
-     inkscape:cx="352.72981"
+     inkscape:cx="353.30853"
      inkscape:cy="457.76748"
      inkscape:window-width="1920"
      inkscape:window-height="1056"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="cal_nombre_sabado"
+     inkscape:current-layer="g5845"
      showguides="false"
      inkscape:lockguides="true"><sodipodi:guide
        position="727.33076,532.431"
@@ -319,9 +319,9 @@
        style="opacity:1;fill:#ffffff"><g
          id="cal_nombre_domingo"
          style="opacity:0.7"
-         onclick="(function() {let elem=document.getElementById('cal_resaltadia_domingo'); let elem_dia=document.getElementById('cal_nombre_domingo'); if (elem.style.display == `inline`) {elem.style.display = 'none'; elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';} else{elem.style.display = 'inline'; elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';} })()"
-         onmouseover="(function() {document.getElementById('cal_resaltadia_domingo').style.display = 'inline'; let elem_dia = document.getElementById('cal_nombre_domingo'); elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';})()"
-         onmouseout="(function() {document.getElementById('cal_resaltadia_domingo').style.display = 'none'; let elem_dia = document.getElementById('cal_nombre_domingo'); elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';})()"><path
+         onclick="(function() { event.stopPropagation(); let elem=document.getElementById('cal_resaltadia_domingo'); let elem_dia=document.getElementById('cal_nombre_domingo'); if (elem.style.display == `inline`) {elem.style.display = 'none'; elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';} else{elem.style.display = 'inline'; elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';} })()"
+         onmouseover="(function() { event.stopPropagation(); document.getElementById('cal_resaltadia_domingo').style.display = 'inline'; let elem_dia = document.getElementById('cal_nombre_domingo'); elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';})()"
+         onmouseout="(function() { event.stopPropagation(); document.getElementById('cal_resaltadia_domingo').style.display = 'none'; let elem_dia = document.getElementById('cal_nombre_domingo'); elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';})()"><path
            id="rect1011"
            style="opacity:1;fill:#ffffff;fill-opacity:0;stroke:none;stroke-width:0.333333;paint-order:stroke fill markers;stop-color:#000000"
            d="m 48.521828,112.39201 h 97.778232 v 22.81054 H 48.521828 Z"
@@ -339,9 +339,9 @@
              style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6019px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:3.77954">domingo</tspan></text></g><g
          id="cal_nombre_lunes"
          style="opacity:0.7"
-         onclick="(function() {let elem=document.getElementById('cal_resaltadia_lunes'); let elem_dia=document.getElementById('cal_nombre_lunes'); if (elem.style.display == `inline`) {elem.style.display = 'none'; elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';} else{elem.style.display = 'inline'; elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';} })()"
-         onmouseover="(function() {document.getElementById('cal_resaltadia_lunes').style.display = 'inline'; let elem_dia = document.getElementById('cal_nombre_lunes'); elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';})()"
-         onmouseout="(function() {document.getElementById('cal_resaltadia_lunes').style.display = 'none'; let elem_dia = document.getElementById('cal_nombre_lunes'); elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';})()"><path
+         onclick="(function() { event.stopPropagation(); let elem=document.getElementById('cal_resaltadia_lunes'); let elem_dia=document.getElementById('cal_nombre_lunes'); if (elem.style.display == `inline`) {elem.style.display = 'none'; elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';} else{elem.style.display = 'inline'; elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';} })()"
+         onmouseover="(function() { event.stopPropagation(); document.getElementById('cal_resaltadia_lunes').style.display = 'inline'; let elem_dia = document.getElementById('cal_nombre_lunes'); elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';})()"
+         onmouseout="(function() { event.stopPropagation(); document.getElementById('cal_resaltadia_lunes').style.display = 'none'; let elem_dia = document.getElementById('cal_nombre_lunes'); elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';})()"><path
            id="path1110"
            style="opacity:1;fill:#ffffff;fill-opacity:0;stroke:none;stroke-width:0.333333;paint-order:stroke fill markers;stop-color:#000000"
            d="m 149.2116,112.39201 h 97.77823 v 22.81054 H 149.2116 Z"
@@ -359,9 +359,9 @@
              style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6019px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:3.77954">lunes</tspan></text></g><g
          id="cal_nombre_martes"
          style="opacity:0.7"
-         onclick="(function() {let elem=document.getElementById('cal_resaltadia_martes'); let elem_dia=document.getElementById('cal_nombre_martes'); if (elem.style.display == `inline`) {elem.style.display = 'none'; elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';} else{elem.style.display = 'inline'; elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';} })()"
-         onmouseover="(function() {document.getElementById('cal_resaltadia_martes').style.display = 'inline'; let elem_dia = document.getElementById('cal_nombre_martes'); elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';})()"
-         onmouseout="(function() {document.getElementById('cal_resaltadia_martes').style.display = 'none'; let elem_dia = document.getElementById('cal_nombre_martes'); elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';})()"><path
+         onclick="(function() { event.stopPropagation(); let elem=document.getElementById('cal_resaltadia_martes'); let elem_dia=document.getElementById('cal_nombre_martes'); if (elem.style.display == `inline`) {elem.style.display = 'none'; elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';} else{elem.style.display = 'inline'; elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';} })()"
+         onmouseover="(function() { event.stopPropagation(); document.getElementById('cal_resaltadia_martes').style.display = 'inline'; let elem_dia = document.getElementById('cal_nombre_martes'); elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';})()"
+         onmouseout="(function() { event.stopPropagation(); document.getElementById('cal_resaltadia_martes').style.display = 'none'; let elem_dia = document.getElementById('cal_nombre_martes'); elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';})()"><path
            id="path1112"
            style="opacity:1;fill:#ffffff;fill-opacity:0;stroke:none;stroke-width:0.333333;paint-order:stroke fill markers;stop-color:#000000"
            d="m 248.91849,112.39201 h 97.77823 v 22.81054 h -97.77823 z"
@@ -379,9 +379,9 @@
              style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6019px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:3.77954">martes</tspan></text></g><g
          id="cal_nombre_miercoles"
          style="opacity:0.7"
-         onclick="(function() {let elem=document.getElementById('cal_resaltadia_miercoles'); let elem_dia=document.getElementById('cal_nombre_miercoles'); if (elem.style.display == `inline`) {elem.style.display = 'none'; elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';} else{elem.style.display = 'inline'; elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';} })()"
-         onmouseover="(function() {document.getElementById('cal_resaltadia_miercoles').style.display = 'inline'; let elem_dia = document.getElementById('cal_nombre_miercoles'); elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';})()"
-         onmouseout="(function() {document.getElementById('cal_resaltadia_miercoles').style.display = 'none'; let elem_dia = document.getElementById('cal_nombre_miercoles'); elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';})()"><path
+         onclick="(function() { event.stopPropagation(); let elem=document.getElementById('cal_resaltadia_miercoles'); let elem_dia=document.getElementById('cal_nombre_miercoles'); if (elem.style.display == `inline`) {elem.style.display = 'none'; elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';} else{elem.style.display = 'inline'; elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';} })()"
+         onmouseover="(function() { event.stopPropagation(); document.getElementById('cal_resaltadia_miercoles').style.display = 'inline'; let elem_dia = document.getElementById('cal_nombre_miercoles'); elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';})()"
+         onmouseout="(function() { event.stopPropagation(); document.getElementById('cal_resaltadia_miercoles').style.display = 'none'; let elem_dia = document.getElementById('cal_nombre_miercoles'); elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';})()"><path
            id="path1114"
            style="opacity:1;fill:#ffffff;fill-opacity:0;stroke:none;stroke-width:0.333333;paint-order:stroke fill markers;stop-color:#000000"
            d="m 348.58742,112.39201 h 97.77823 v 22.81054 h -97.77823 z"
@@ -399,9 +399,9 @@
              style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6019px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:3.77954">miércoles</tspan></text></g><g
          id="cal_nombre_jueves"
          style="opacity:0.7"
-         onclick="(function() {let elem=document.getElementById('cal_resaltadia_jueves'); let elem_dia=document.getElementById('cal_nombre_jueves'); if (elem.style.display == `inline`) {elem.style.display = 'none'; elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';} else{elem.style.display = 'inline'; elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';} })()"
-         onmouseover="(function() {document.getElementById('cal_resaltadia_jueves').style.display = 'inline'; let elem_dia = document.getElementById('cal_nombre_jueves'); elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';})()"
-         onmouseout="(function() {document.getElementById('cal_resaltadia_jueves').style.display = 'none'; let elem_dia = document.getElementById('cal_nombre_jueves'); elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';})()"><path
+         onclick="(function() { event.stopPropagation(); let elem=document.getElementById('cal_resaltadia_jueves'); let elem_dia=document.getElementById('cal_nombre_jueves'); if (elem.style.display == `inline`) {elem.style.display = 'none'; elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';} else{elem.style.display = 'inline'; elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';} })()"
+         onmouseover="(function() { event.stopPropagation(); document.getElementById('cal_resaltadia_jueves').style.display = 'inline'; let elem_dia = document.getElementById('cal_nombre_jueves'); elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';})()"
+         onmouseout="(function() { event.stopPropagation(); document.getElementById('cal_resaltadia_jueves').style.display = 'none'; let elem_dia = document.getElementById('cal_nombre_jueves'); elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';})()"><path
            id="path1116"
            style="opacity:1;fill:#ffffff;fill-opacity:0;stroke:none;stroke-width:0.333333;paint-order:stroke fill markers;stop-color:#000000"
            d="m 448.39159,112.39201 h 97.77823 v 22.81054 h -97.77823 z"
@@ -419,9 +419,9 @@
              style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6019px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:3.77954">jueves</tspan></text></g><g
          id="cal_nombre_viernes"
          style="opacity:0.7"
-         onclick="(function() {let elem=document.getElementById('cal_resaltadia_viernes'); let elem_dia=document.getElementById('cal_nombre_viernes'); if (elem.style.display == `inline`) {elem.style.display = 'none'; elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';} else{elem.style.display = 'inline'; elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';} })()"
-         onmouseover="(function() {document.getElementById('cal_resaltadia_viernes').style.display = 'inline'; let elem_dia = document.getElementById('cal_nombre_viernes'); elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';})()"
-         onmouseout="(function() {document.getElementById('cal_resaltadia_viernes').style.display = 'none'; let elem_dia = document.getElementById('cal_nombre_viernes'); elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';})()"><path
+         onclick="(function() { event.stopPropagation(); let elem=document.getElementById('cal_resaltadia_viernes'); let elem_dia=document.getElementById('cal_nombre_viernes'); if (elem.style.display == `inline`) {elem.style.display = 'none'; elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';} else{elem.style.display = 'inline'; elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';} })()"
+         onmouseover="(function() { event.stopPropagation(); document.getElementById('cal_resaltadia_viernes').style.display = 'inline'; let elem_dia = document.getElementById('cal_nombre_viernes'); elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';})()"
+         onmouseout="(function() { event.stopPropagation(); document.getElementById('cal_resaltadia_viernes').style.display = 'none'; let elem_dia = document.getElementById('cal_nombre_viernes'); elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';})()"><path
            id="path1118"
            style="opacity:1;fill:#ffffff;fill-opacity:0;stroke:none;stroke-width:0.333333;paint-order:stroke fill markers;stop-color:#000000"
            d="m 549.78346,112.39201 h 97.77823 v 22.81054 h -97.77823 z"
@@ -439,9 +439,9 @@
              style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6019px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:3.77954">viernes</tspan></text></g><g
          id="cal_nombre_sabado"
          style="opacity:0.7"
-         onclick="(function() {let elem=document.getElementById('cal_resaltadia_sabado'); let elem_b=document.getElementById('cal_resaltadia_sabado_b'); let elem_dia=document.getElementById('cal_nombre_sabado'); if (elem.style.display == `inline`) {elem.style.display = 'none'; elem_b.style.display = 'none'; elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';} else{elem.style.display = 'inline'; elem_b.style.display = 'inline'; elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';} })()"
-         onmouseover="(function() {document.getElementById('cal_resaltadia_sabado').style.display = 'inline'; document.getElementById('cal_resaltadia_sabado_b').style.display = 'inline'; let elem_dia = document.getElementById('cal_nombre_sabado'); elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';})()"
-         onmouseout="(function() {document.getElementById('cal_resaltadia_sabado').style.display = 'none'; document.getElementById('cal_resaltadia_sabado_b').style.display = 'none'; let elem_dia = document.getElementById('cal_nombre_sabado'); elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';})()"><path
+         onclick="(function() { event.stopPropagation(); let elem=document.getElementById('cal_resaltadia_sabado'); let elem_b=document.getElementById('cal_resaltadia_sabado_b'); let elem_dia=document.getElementById('cal_nombre_sabado'); if (elem.style.display == `inline`) {elem.style.display = 'none'; elem_b.style.display = 'none'; elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';} else{elem.style.display = 'inline'; elem_b.style.display = 'inline'; elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';} })()"
+         onmouseover="(function() { event.stopPropagation(); document.getElementById('cal_resaltadia_sabado').style.display = 'inline'; document.getElementById('cal_resaltadia_sabado_b').style.display = 'inline'; let elem_dia = document.getElementById('cal_nombre_sabado'); elem_dia.style.opacity = '1'; elem_dia.style.filter='drop-shadow(0px 0px 7px #00000096)';})()"
+         onmouseout="(function() { event.stopPropagation(); document.getElementById('cal_resaltadia_sabado').style.display = 'none'; document.getElementById('cal_resaltadia_sabado_b').style.display = 'none'; let elem_dia = document.getElementById('cal_nombre_sabado'); elem_dia.style.opacity = '0.7'; elem_dia.style.filter='none';})()"><path
            id="path1120"
            style="opacity:1;fill:#ffffff;fill-opacity:0;stroke:none;stroke-width:0.333333;paint-order:stroke fill markers;stop-color:#000000"
            d="m 648.93836,112.39201 h 87.77823 v 22.81054 h -87.77823 z"
