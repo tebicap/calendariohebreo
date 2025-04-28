@@ -3204,7 +3204,7 @@ async function main(){
     var date = new Date(); //Fecha actual
     var fa = new Date(date.setHours(0, 0, 0)); // Fecha Actual con hora cero REESTABLECER
         /////////////////////////
-         //fa = new Date(2022,3-1,6,0,0,0); // Fecha Test (fecha actual) (año, mes-1, dia paganos) OCULTAR
+         //fa = new Date(2025,4-1,29,0,0,0); // Fecha Test (fecha actual) (año, mes-1, dia paganos) OCULTAR
         /////////////////////////
     console.log('fecha actual: '+fa);
     var dia_delasemana = fa.getUTCDay(); // obtengo dia de la semana actual REESTABLECER
@@ -3470,7 +3470,7 @@ async function main(){
          // cuento el omer (dentro del loop)
           let cal_cuentaomer = (cal_numdia+1)-gappf-15; //calculo el día del Omer actual
          if (mesHebreo == 2 || mesHebreo == 3){
-            let delomer_alavistamiento = 3+15+( avistamiento.getTime() - pf_om.getTime() )/1000/60/60/24; // calculo días desde el omer hasta el último avistamiento
+            let delomer_alavistamiento = 5+15+( avistamiento.getTime() - pf_om.getTime() )/1000/60/60/24; // calculo días desde el omer hasta el último avistamiento
             cal_cuentaomer += delomer_alavistamiento; // si estoy en el segundo mes le sumo los xx días del mes primero (serán 29 0 30)
          }
 
