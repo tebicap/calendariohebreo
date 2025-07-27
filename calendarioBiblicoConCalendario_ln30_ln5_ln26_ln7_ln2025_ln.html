@@ -221,13 +221,16 @@ tebica@gmail.com (Esteban)
     }
     #boton_dia, #boton_noche {
       font-size: 3em;
-      padding: 10px 10px 10px 10px;
+      text-align: center;
+      text-box-trim: trim-both; /* esto hace que ambos emojis se mantenga alineados verticalmente*/
+      padding: 23px;
       margin: 0px 30px 0 30px;
-      background-color: yellow;
       user-select: none;
       border-radius: 10px;
       box-shadow: 0px 5px 8px #0008;
       cursor: pointer;
+      width: 90px;
+      height: 90px;
     }
     #boton_dia:hover, #boton_noche:hover {
       transform: scale(1.1);
@@ -236,9 +239,11 @@ tebica@gmail.com (Esteban)
       transform: scale(0.8);
     }
     #boton_noche{
+      color: #d6e6ff;
       background-color: #394571;
     }
     #boton_dia{
+      color: #ffb400;
       background-color: #85f4ff;
     }
 
@@ -3123,7 +3128,7 @@ F2Y/dzoea5vHagvCYX0XiDMN0AHfBJ1wksn/A6FmzkcJLMOeAAAAAElFTkSuQmCC" /></div>
       <br>
       <div>
         <div id="boton_dia" onclick="dialogo_confirmacion='dia'">☀️</div>
-        <div id="boton_noche" onclick="dialogo_confirmacion='noche'">🌙</div>
+        <div id="boton_noche" onclick="dialogo_confirmacion='noche'">🌘</div>
       </div>
     </div>
 <script>
