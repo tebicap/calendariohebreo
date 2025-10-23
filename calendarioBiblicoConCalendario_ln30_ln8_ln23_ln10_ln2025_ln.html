@@ -3493,6 +3493,7 @@ async function main(){
              } else if ( cal_numdia == 30 || cal_numdia == 31){
                  dia.parentNode.nextSibling.style.opacity = "0.3"; // proxima luna se ve transparente
                  document.getElementById(`cal_num_dia_${cal_numcasillero}`).style.opacity= "0.4"; // lavo el número del día potencial 30
+                 document.getElementById(`cal_recuadro_dia_${cal_numcasillero}`).firstChild.style.strokeDasharray = "4, 3"; // borde punteado para el día 30
              } else { 
                  document.getElementById(`cal_luna_celda_${cal_numcasillero}`).style.display = "none";
              }
