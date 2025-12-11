@@ -1,4 +1,4 @@
-CACHE_NAME = 'v1'; // actualizar nro cada vez que actualizo otros archivos para que los recargue
+CACHE_NAME = 'v2'; // actualizar nro cada vez que actualizo otros archivos para que los recargue
 
 const ASSETS = [];
 
@@ -58,5 +58,50 @@ self.addEventListener('fetch', event => {
     );
     return;
   }
+
+
+  // CSS de fonts.googleapis.com → network-first
+  const GOOGLE_FONTS_CSS_CACHE = 'gf-css';
+
+  self.addEventListener('fetch', event => {
+    const url = new URL(event.request.url);
+
+    if (url.origin === 'https://fonts.googleapis.com') {
+      event.respondWith(
+        caches.open(GOOGLE_FONTS_CSS_CACHE).then(cache =>
+          fetch(event.request)
+            .then(resp => {
+              cache.put(event.request, resp.clone());
+              return resp;
+            })
+            .catch(() => cache.match(event.request))
+        )
+      );
+      return;
+    }
+  });
+
+  // archivos .woff2 desde fonts.gstatic.com → cache-first
+  const GOOGLE_FONTS_FILES_CACHE = 'gf-files';
+
+  self.addEventListener('fetch', event => {
+    const url = new URL(event.request.url);
+
+    if (url.origin === 'https://fonts.gstatic.com') {
+      event.respondWith(
+        caches.open(GOOGLE_FONTS_FILES_CACHE).then(cache =>
+          cache.match(event.request).then(cached => {
+            if (cached) return cached;
+
+            return fetch(event.request).then(resp => {
+              cache.put(event.request, resp.clone());
+              return resp;
+            });
+          })
+        )
+      );
+      return;
+    }
+  });
 
 });
